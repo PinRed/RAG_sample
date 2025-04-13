@@ -1,0 +1,7 @@
+FAISS（Facebook AI Similarity Search）是由 Facebook AI Research 開發的開源向量資料庫，用於快速相似度搜尋與聚類，特別適合於大規模語意檢索系統。它支援 CPU 與 GPU，能夠處理百萬級以上的向量資料。
+
+Retrieval-Augmented Generation（RAG）是一種結合了資訊檢索與自然語言生成的架構，流程是先從文件庫中檢索相關資訊，再送入語言模型進行回答。這樣做可以讓語言模型使用到即時或外部知識，避免幻覺現象。
+
+LLaMA（Large Language Model Meta AI）是 Meta 發布的系列語言模型，其中 LLaMA 2 系列支援開源使用，包含 7B、13B 與 70B 等模型大小，適合在本地部署並進行微調與推論。
+
+FastAPI 是一個用於構建 Web API 的現代 Python 框架，使用 Pydantic 進行資料驗證，並採用 Starlette 作為底層非同步 Web Server。它具備高效能與開發效率，常被用於 AI API 與微服務架構。
